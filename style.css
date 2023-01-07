@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    flex-grow:1;
+    color: #49511D;
+}
+.random{
+    flex-grow:1;
+}
+.quote{
+    flex-grow:1;
+}
+.call{
+    flex-grow:1;
+}
+.footer{
+    flex-grow:1;
+    color: #49511D;
+}
