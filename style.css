@@ -2,6 +2,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin-right: 100px;
 }
 
 ul{
@@ -17,7 +18,9 @@ ul{
 }
 
 .logo{
-    margin-left:20px;
+    margin-left:100px;
+    font-size: 24px;
+    color: #F9FAF8
 }
 
 .header{
@@ -27,9 +30,10 @@ ul{
 
 .duplet{
     display: flex;
-    margin: 40px;
     gap: 20px;
     justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .random{
@@ -54,6 +58,9 @@ ul{
 
 a{
     text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB
+
 }
 
 .button1{
@@ -74,6 +81,7 @@ a{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: #E5E7EB;
 }
 
 .call{
@@ -81,4 +89,46 @@ a{
     justify-content: center;
     padding: 64px;
 
+}
+
+.header{
+    background-color: #1f2937;
+}
+
+.footer{
+    background-color: #1f2937;
+}
+
+.centralbox{
+    background-color: #3883f6;
+}
+
+.website-awesome{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.awesome-subtext{
+    color: #E5E7EB;   
+}
+
+.frankenstein{
+    flex-grow: 2;
+    border-radius: 40px;
+    min-width: 0px;
+    max-width: 400px;
+    margin-right: 100px;
+}
+
+.triplet{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.awesome-signin{
+    border-radius: 4px;
+    background-color: #3883f6;
+    margin-top: 8px;
+    color: #F9FAF8;
 }
