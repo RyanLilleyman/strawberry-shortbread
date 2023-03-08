@@ -39,21 +39,25 @@ ul{
 .random{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 24px;
     margin-bottom:100px;
 
 }
 
 .tiles{
     display: flex;
-    gap: 16px;
-    margin: 16px;
-
+    gap: 32px;
+    margin: 24px;
+    justify-content: center;
 }
 
 .random-header{
     display: flex;
     justify-content: center;
+    color:#1F2937;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 24px;
 }
 
 a{
@@ -64,23 +68,25 @@ a{
 }
 
 .button1{
-    background-color: #2c1aed;
-    border: none;
-    border-radius: 10px ;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 10px;
+    border-radius: 12px;
     cursor: pointer;
+    text-align: center;
+    padding: 1px 6px;
+    border-style: outset;
+    background-color: #3883f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    text-decoration: none;
 }
+
 .quote{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 100px;
     background-color: #E5E7EB;
 }
 
@@ -97,10 +103,21 @@ a{
 
 .footer{
     background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .centralbox{
     background-color: #3883f6;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 24px 100px;
+    gap: 100px
+
 }
 
 .website-awesome{
@@ -111,6 +128,8 @@ a{
 
 .awesome-subtext{
     color: #E5E7EB;   
+    padding:8px
+
 }
 
 .frankenstein{
@@ -130,5 +149,73 @@ a{
     border-radius: 4px;
     background-color: #3883f6;
     margin-top: 8px;
+    color: #F9FAF8;
+    padding: 1px 6px;
+    
+}
+
+.munchkin-minister-1{
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 2px;
+    background-color: #3883f6;
+}
+
+.munchkin-minister-2{
+    border-radius: 10px;
+    max-width: 200px;
+    padding:2px;
+    background-color: #3883f6;
+}
+
+.munchkin-minister-3{
+    border-radius: 10px;
+    max-width: 200px;
+    padding:2px;
+    background-color: #3883f6;
+}
+
+.munchkin-minister-4{
+    border-radius: 10px;
+    max-width: 200px;
+    padding:2px;
+    background-color: #3883f6;
+}
+
+.munchkin-ruler{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.grandma-text{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.Othellos-last-wish{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.every-english-teacher{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.calling,.grandma{
+    color:#F9FAF8
+}
+
+.calling{
+    font-weight: bolder;
+}
+
+.contact{
+    text-decoration: none;
     color: #F9FAF8;
 }
