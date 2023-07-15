@@ -3,6 +3,8 @@
 ## Overview
 A warm, inviting landing page, crafted in homage to all grandmas. The project uses HTML, CSS, and JavaScript to create a vintage aesthetic with a modern twist.
 
+![Project Banner](https://github.com/RyanLilleyman/strawberry-shortbread/blob/main/sugar.png)
+
 ## Features
 - Responsive design suitable for all devices
 - Vintage themed aesthetics
